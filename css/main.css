@@ -1,0 +1,86 @@
+@font-face{
+    font-family:"HelveticaNeueMedium";
+    src:url(../fonts/HelveticaNeueMedium.ttf);
+}
+@font-face{
+    font-family:"OpenSans-Bold";
+    src:url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family:"OpenSans-Semibold";
+    src:url(../fonts/OpenSans-Semibold.ttf);
+}
+
+body{
+    font-family: "HelveticaNeueMedium";
+    font-size: 14px;
+    line-height: 22px;
+    color:#a7a7a7;
+    
+    min-width: 600px;
+    
+    background-color: #f3f2ed;
+}
+.container{
+  width: 540px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/*header start*/
+header{
+    background: #e0dfda;
+    height: 88px;
+}
+header .container{
+     background: #343538;
+     height: 88px;
+}
+
+.main-logo{
+    font-family: "OpenSans-Bold";
+    
+    font-size: 42px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    display: inline-block;
+    width: 246px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.user-block{
+    display: inline-block;
+    float: right;
+    width: 270px;
+     padding-top: 41px;
+    padding-bottom: 20px;
+    margin-left: 22px;
+    
+}
+.user-block a{
+    text-decoration: none;
+    color:#b3b3b3;
+    font-size:14px;
+    line-height: 18px;
+    letter-spacing:-1px;
+   
+    
+    padding-left: 4px;
+}
+.user-block a:first-child{
+     padding-left: 47px;
+}
+.user-block a:hover{
+    color:#ffffff;
+}
+
+/*header end*/
+.blog-image{
+ width:600px;
+  margin: 0 auto;
+  padding: 0 30px;
+    
+}
